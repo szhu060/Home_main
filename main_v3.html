@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 		<title> Home | Josh Z.S </title>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			<link href="//fonts.googleapis.com/css?family=Andika&subset=latin" rel="stylesheet" type="text/css">
 			<link href="//fonts.googleapis.com/css?family=Emilys Candy&subset=latin" rel="stylesheet" type="text/css">
 		<style>
@@ -326,5 +327,12 @@
 			    </form>
 			 	</div>
 		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.shuru').on('mouseenter mouseleave',function(){
+					$(this).toggleClass('highlight');
+				});
+			});
+		</script>
 	</body>
 </html>
